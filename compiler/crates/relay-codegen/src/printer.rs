@@ -697,7 +697,7 @@ pub fn get_module_path(js_module_format: JsModuleFormat, key: StringKey) -> Cow<
             let extension = path.extension();
 
             if let Some(extension) = extension {
-                if extension == "ts" || extension == "tsx" || extension == "js" {
+                if extension == "ts" || extension == "tsx" || extension == "svelte" || extension == "js" {
                     let path_without_extension = path.with_extension("");
 
                     let path_without_extension = path_without_extension

@@ -37,6 +37,7 @@ pub fn get_watchman_expr(config: &Config) -> Expr {
                                 PathBuf::from("jsx"),
                                 PathBuf::from("ts"),
                                 PathBuf::from("tsx"),
+                                PathBuf::from("svelte"),
                             ]
                         }
                     }),

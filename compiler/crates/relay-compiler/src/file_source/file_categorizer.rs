@@ -341,7 +341,7 @@ impl<T: Clone> PathMapping<T> {
 }
 
 fn is_source_code_extension(extension: &OsStr) -> bool {
-    extension == "js" || extension == "jsx" || extension == "ts" || extension == "tsx"
+    extension == "js" || extension == "jsx" || extension == "ts" || extension == "tsx" || extension == "svelte"
 }
 
 fn is_schema_extension(extension: &OsStr) -> bool {
